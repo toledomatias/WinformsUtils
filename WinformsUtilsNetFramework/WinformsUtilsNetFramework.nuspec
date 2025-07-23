@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>WinformsUtilsNetFramework</id>
+    <version>1.0.1</version>
+    <title>WinformsUtils NET Framework</title>
+    <authors>Matias Toledo</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <!-- <icon>icon.png</icon> -->
+    <projectUrl>https://github.com/toledomatias/WinformsUtils</projectUrl>
+    <description>A collection of helpers for datagridview, combobox and textbox</description>
+    <copyright>2025 Matias Toledo</copyright>
+    <tags>winforms datagridview combobox textobox</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.2" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\WinformsUtilsNetFramework.dll" target="lib\net452\" />
+    <file src="bin\Release\WinformsUtilsNetFramework.xml" target="lib\net452\" />
+  </files>
+</package>
