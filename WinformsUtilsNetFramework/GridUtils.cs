@@ -87,6 +87,20 @@ namespace WinformsUtilsNetFramework
                 return this;
             }
 
+            public ColDefs Percentage(string name, string title = null)
+            {
+                _columns.Add(new ColumnConfiguration
+                {
+                    Visible = true,
+                    Name = name,
+                    Title = title ?? name,
+                    Width = 8,
+                    Align = Align.Right,
+                    Format = "P2"
+                });
+                return this;
+            }
+
             public ColDefs DateTime(string name, string title = null)
             {
                 _columns.Add(new ColumnConfiguration

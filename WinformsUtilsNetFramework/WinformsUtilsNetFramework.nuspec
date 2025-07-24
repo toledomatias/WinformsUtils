@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>WinformsUtilsNetFramework</id>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <title>WinformsUtils NET Framework</title>
     <authors>Matias Toledo</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
