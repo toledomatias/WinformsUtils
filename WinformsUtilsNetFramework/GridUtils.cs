@@ -190,6 +190,12 @@ namespace WinformsUtilsNetFramework
                 {
                     var col = columns[i];
                     var columna = gr.Columns[col.Name];
+
+                    if (columna == null)
+                    {
+                        throw new Exception("Column name not found: " + col.Name);
+                    }
+
                     if (col.Visible)
                     {
                         columna.HeaderText = col.Title;
